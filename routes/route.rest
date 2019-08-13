@@ -1,0 +1,35 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5d52ee9a54edc55f8b2a25e6
+
+###
+
+GET http://localhost:3000/subscriberaaaa
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Esteban",
+  "subscribedChannel": "Medium"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5d52ee9054edc55f8b2a25e5
+
+###
+
+PATCH http://localhost:3000/subscribers/5d52eb50c0e4165f66d304ec
+Content-Type: application/json
+
+{
+  "name": "Tommy"
+}
+
+###
+
+GET https://www.google.com
